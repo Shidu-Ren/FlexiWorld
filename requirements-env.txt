@@ -1,0 +1,9 @@
+-r requirements.txt
+gymnasium==1.2.3
+ogbench==1.2.1
+mujoco==3.8.1
+dm-control
+pygame==2.6.1
+pymunk==7.2.0
+shapely
+minigrid

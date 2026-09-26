@@ -1,0 +1,24 @@
+{
+  "source_files_sha256": {
+    "module.py": "3d5bec4b4f0d6a93df2d3be2f6562170bc8ff4bcde913ddfac7cc69dd0868985",
+    "jepa.py": "0f0c9ad08659b94c8a977d776bb55453cb73be86061724564fc68556c1cedae5",
+    "actor_path_cem_solver.py": "98b11719d94dbc7ef58e601b488b2bb52667f5fe78895d42395426936fe24a80",
+    "direct_solver.py": "e5796a7eab6e7d7841f22a99e1bf44240649fe6d4e7a6836de714bd10e002348",
+    "replan_history.py": "0fed6d67a8362569e57a2e45b90c2b1b68d667e61cc24e86ec2ea6e634b3e70e",
+    "eval.py": "8f755ba4386a9df1fafaf3572dbf369837f3c95cc6241cd569cec5c2f4d597f4",
+    "vark_module.py": "42f5b5c15b18b361685e1f5e01c817e27b8b90b645d32a64cbe94567c43699b1",
+    "vark_jepa.py": "3495f63b155b3dcf6dcbe05af68dfb1ee405d0fc407b3015ec29b7b9da70d872",
+    "vark_solver.py": "4a90204c72c63e8531dac5d2ae9532e4d3f18327e4d70f46d401ba4de1f8ebf1",
+    "vark_data.py": "b927e37dccd8a7d3ac40c8961517120ff1b59a944e83a7a1ce9d9879ac2c76c7",
+    "odyssey_objective.py": "6286ad2305ad7237e66c5a90d0106c4603b1a2551d10f1746420287bc7335931",
+    "train.py": "a10a2919058917d17f32fd78e586cc81a40c2d280c930653bd0196eaf37bde58",
+    "train_mixed_frames.py": "14b899c0ea9c69aa15d68caa69e4b96e9017bf58884e30b45c4e0862fbfd8c7b",
+    "train_odyssey.py": "050b3ce0785721d012ea883b32918e4fe49f342a6f322e64f4163c9027ae38bd",
+    "utils.py": "5516663bbec53f771ed34082295f7637d06bcb2f20412b6f9c578149e8832e9b"
+  },
+  "upstream": {
+    "INTACT": "653ee22266a34a74efca21b0b03dfc1fd6fa37ff",
+    "LeWM": "8edfeb336732b5f3ce7b8b210d0ba370a09e2cac"
+  },
+  "note": "SHA256 hashes of the source inputs; upstream revisions are listed separately."
+}

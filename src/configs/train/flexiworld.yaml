@@ -1,0 +1,33 @@
+defaults:
+  - model: flexiworld
+  - _self_
+
+task: pusht
+seed: 0
+cache_dir: ${oc.env:SWM_DATA_DIR,./data_cache}
+output_dir: outputs/${task}/seed${seed}
+dataset_name: pusht_expert_train.lance
+action_dim: 2
+img_size: 224
+embed_dim: 192
+history_size: 3
+trainer:
+  max_epochs: 2
+  devices: 2
+  accelerator: gpu
+  strategy: ddp
+  precision: bf16-mixed
+  gradient_clip_val: 1.0
+  limit_val_batches: 1
+loader:
+  batch_size: 128
+  num_workers: 6
+optimizer:
+  type: AdamW
+  lr: 0.0003
+  weight_decay: 0.001
+hydra:
+  job:
+    chdir: false
+  run:
+    dir: ${output_dir}/hydra

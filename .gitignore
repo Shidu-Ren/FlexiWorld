@@ -1,0 +1,14 @@
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.venv/
+.DS_Store
+outputs/
+results/
+data_cache/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.lance/
+wandb/
